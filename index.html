@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="UTF-8" />
+  <title>跳转中...</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <script>
+    const pageA = "https://wa.me/13104373610";
+    const pageB = "https://wa.me/447925494381";
+
+    window.onload = function () {
+      const r = Math.random();
+      if (r < 0.5) {
+        window.location.href = pageA;
+      } else {
+        window.location.href = pageB;
+      }
+    };
+  </script>
+</head>
+<body>
+  <h2 style="text-align: center;">请稍候，正在跳转 WhatsApp 联系方式...</h2>
+</body>
+</html>
